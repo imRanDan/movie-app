@@ -1,5 +1,6 @@
-import { Tabs } from 'expo-router'
-import React from 'react'
+
+import { Tabs } from 'expo-router';
+import React from 'react';
 
 const _layout = () => {
   return (
@@ -7,7 +8,7 @@ const _layout = () => {
         <Tabs.Screen
             name="index"
             options={{ title: 'Home',
-                headerShown: false
+                headerShown: false,
             }}
             />
             <Tabs.Screen 
